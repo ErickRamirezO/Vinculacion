@@ -1,11 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  background: url('img/fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
+
 
 #chat-container {
   background: #fff;
