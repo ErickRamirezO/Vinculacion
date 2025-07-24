@@ -31,3 +31,87 @@ body {
 #send-btn {
   padding: 8px 15px;
 }
+
+html, body {
+      height: 100%;
+      margin: 0;
+      background-color: #f8f9fa;
+    }
+
+    /* Contenedor general */
+    .main-wrapper {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Chat principal */
+    #chat-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+    }
+
+    #chat-window {
+      flex: 1;
+      overflow-y: auto;
+      padding: 15px;
+      background-color: #fff;
+    }
+
+    #chat-input-container {
+      display: flex;
+      padding: 10px;
+      border-top: 1px solid #dee2e6;
+      background-color: #f1f3f5;
+    }
+
+    #user-input {
+      flex: 1;
+      margin-right: 10px;
+    }
+
+    .chat-bubble {
+      padding: 10px 15px;
+      margin-bottom: 10px;
+      border-radius: 20px;
+      max-width: 80%;
+    }
+
+    .user-message {
+      background-color: #0d6efd;
+      color: white;
+      align-self: end;
+      margin-left: auto;
+    }
+
+    .bot-message {
+      background-color: #e2e3e5;
+      color: #333;
+      align-self: start;
+      margin-right: auto;
+    }
+
+    /* En escritorio: centrado vertical y tamaño fijo */
+    @media (min-width: 768px) {
+      #chat-container {
+        height: 600px;
+        width: 100%;
+        max-width: 600px;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      }
+    }
+
+    /* En móvil: ocupa toda la pantalla */
+    @media (max-width: 767px) {
+      .main-wrapper {
+        height: 100vh;
+      }
+      #chat-container {
+        border-radius: 0;
+      }
+    }
