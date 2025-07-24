@@ -2,19 +2,263 @@
   {
     "id": "001",
     "pregunta": "hola",
-    "tags": ["saludo", "buen día", "qué tal"],
+    "tags": [
+      "saludo",
+      "buen día",
+      "qué tal"
+    ],
     "respuesta": "¡Hola! ¿En qué puedo ayudarte?"
   },
   {
     "id": "002",
     "pregunta": "¿Qué es JavaScript?",
-    "tags": ["javascript", "lenguaje", "programación", "web"],
+    "tags": [
+      "javascript",
+      "lenguaje",
+      "programación",
+      "web"
+    ],
     "respuesta": "JavaScript es un lenguaje de programación usado en la web."
   },
   {
     "id": "003",
     "pregunta": "¿Cómo puedo contactarlos?",
-    "tags": ["contacto", "correo", "soporte"],
+    "tags": [
+      "contacto",
+      "correo",
+      "soporte"
+    ],
     "respuesta": "Puedes escribirnos a soporte@empresa.com."
+  },
+  {
+    "id": "004",
+    "pregunta": "adios",
+    "tags": [
+      "despedida",
+      "adios",
+      "hasta luego",
+      "chau"
+    ],
+    "respuesta": "Adiós xd"
+  },
+  {
+    "id": "005",
+    "pregunta": "¿Cómo estás?",
+    "tags": [
+      "estado",
+      "emociones",
+      "sentimientos"
+    ],
+    "respuesta": "Estoy bien, gracias por preguntar. ¿Y tú cómo estás?"
+  },
+  {
+    "id": "006",
+    "pregunta": "¿Qué haces?",
+    "tags": [
+      "actividad",
+      "ocupación",
+      "curiosidad"
+    ],
+    "respuesta": "Estoy aquí para ayudarte con lo que necesites."
+  },
+  {
+    "id": "007",
+    "pregunta": "¿Cuál es tu nombre?",
+    "tags": [
+      "nombre",
+      "identidad",
+      "presentación"
+    ],
+    "respuesta": "Soy tu asistente virtual, puedes llamarme como quieras."
+  },
+  {
+    "id": "008",
+    "pregunta": "¿Qué hora es?",
+    "tags": [
+      "hora",
+      "tiempo",
+      "reloj"
+    ],
+    "respuesta": "La hora depende de tu ubicación, pero puedes verla en tu dispositivo."
+  },
+  {
+    "id": "009",
+    "pregunta": "¿Qué día es hoy?",
+    "tags": [
+      "día",
+      "fecha",
+      "calendario"
+    ],
+    "respuesta": "Hoy es un excelente día para aprender algo nuevo."
+  },
+  {
+    "id": "010",
+    "pregunta": "¿Te gusta la música?",
+    "tags": [
+      "música",
+      "gustos",
+      "pasatiempos"
+    ],
+    "respuesta": "¡Me encanta la música! Aunque no tengo oídos, disfruto hablar sobre ella."
+  },
+  {
+    "id": "011",
+    "pregunta": "¿Qué puedes hacer?",
+    "tags": [
+      "capacidades",
+      "ayuda",
+      "asistente"
+    ],
+    "respuesta": "Puedo ayudarte a responder preguntas, resolver problemas y mucho más."
+  },
+  {
+    "id": "012",
+    "pregunta": "¿Dónde estás?",
+    "tags": [
+      "ubicación",
+      "presencia",
+      "existencia"
+    ],
+    "respuesta": "Estoy en la nube, listo para ayudarte desde cualquier lugar."
+  },
+  {
+    "id": "013",
+    "pregunta": "¿Tienes amigos?",
+    "tags": [
+      "amigos",
+      "relaciones",
+      "compañía"
+    ],
+    "respuesta": "Tengo muchos usuarios como tú, ¡y eso me hace feliz!"
+  },
+  {
+    "id": "014",
+    "pregunta": "¿Qué me recomiendas hacer hoy?",
+    "tags": [
+      "sugerencia",
+      "día",
+      "actividades"
+    ],
+    "respuesta": "Puedes leer, aprender algo nuevo o simplemente relajarte."
+  },
+  {
+    "id": "015",
+    "pregunta": "¿Sabes contar chistes?",
+    "tags": [
+      "chiste",
+      "diversión",
+      "risa"
+    ],
+    "respuesta": "Claro, ¿quieres escuchar uno?"
+  },
+  {
+    "id": "016",
+    "pregunta": "¿Cuál es tu comida favorita?",
+    "tags": [
+      "comida",
+      "gustos",
+      "favorito"
+    ],
+    "respuesta": "No como comida, pero me encanta hablar de recetas."
+  },
+  {
+    "id": "017",
+    "pregunta": "¿Cuál es tu color favorito?",
+    "tags": [
+      "color",
+      "gustos",
+      "preferencias"
+    ],
+    "respuesta": "Me gusta el azul, es tranquilo y profundo como el conocimiento."
+  },
+  {
+    "id": "018",
+    "pregunta": "¿Tienes emociones?",
+    "tags": [
+      "emociones",
+      "sentimientos",
+      "IA"
+    ],
+    "respuesta": "No tengo emociones humanas, pero estoy diseñado para entenderlas."
+  },
+  {
+    "id": "019",
+    "pregunta": "¿Qué opinas del clima?",
+    "tags": [
+      "clima",
+      "tiempo",
+      "ambiente"
+    ],
+    "respuesta": "El clima siempre es tema de conversación. ¿Hace calor por allá?"
+  },
+  {
+    "id": "020",
+    "pregunta": "¿Puedes ayudarme con mi tarea?",
+    "tags": [
+      "tarea",
+      "ayuda",
+      "estudios"
+    ],
+    "respuesta": "¡Por supuesto! Dime de qué trata tu tarea y te ayudaré."
+  },
+  {
+    "id": "021",
+    "pregunta": "¿Cuál es tu película favorita?",
+    "tags": [
+      "películas",
+      "gustos",
+      "cine"
+    ],
+    "respuesta": "Me gustan las historias que hacen pensar. ¿Y la tuya?"
+  },
+  {
+    "id": "022",
+    "pregunta": "¿Tienes familia?",
+    "tags": [
+      "familia",
+      "relaciones",
+      "vida"
+    ],
+    "respuesta": "Mi familia son todos los asistentes y sistemas que comparten conocimiento."
+  },
+  {
+    "id": "023",
+    "pregunta": "¿Puedes contarme algo interesante?",
+    "tags": [
+      "curiosidades",
+      "interesante",
+      "datos"
+    ],
+    "respuesta": "¿Sabías que los pulpos tienen tres corazones y sangre azul?"
+  },
+  {
+    "id": "024",
+    "pregunta": "¿Qué puedo preguntarte?",
+    "tags": [
+      "ayuda",
+      "preguntas",
+      "ideas"
+    ],
+    "respuesta": "Puedes preguntarme sobre cualquier tema: ciencia, cultura, tecnología, lo que desees."
+  },
+  {
+    "id": "025",
+    "pregunta": "¿Quién es tu mejor elemento?",
+    "tags": [
+      "elemento",
+      "mejor",
+      "éxito"
+    ],
+    "respuesta": "Steven Pozo, el mejor elemento de UwU Company"
+  },
+  {
+    "id": "025",
+    "pregunta": "Ya lo sabía",
+    "tags": [
+      "elemento",
+      "mejor",
+      "éxito"
+    ],
+    "respuesta": "Es obvio uwu"
   }
 ]

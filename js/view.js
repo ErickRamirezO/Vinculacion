@@ -5,9 +5,15 @@ const ChatView = (() => {
 
   function appendMessage(message, sender = "user") {
     const msgDiv = document.createElement("div");
-    msgDiv.textContent = `${sender === "user" ? "Tú" : "Bot"}: ${message}`;
-    msgDiv.className = sender;
+    msgDiv.className = `message ${sender}`;
+    // Permitir emojis y saltos de línea
+    msgDiv.innerHTML = `<span>${message}</span>`;
     chatWindow.appendChild(msgDiv);
+    // Animación
+    msgDiv.style.opacity = 0;
+    setTimeout(() => {
+      msgDiv.style.opacity = 1;
+    }, 50);
     chatWindow.scrollTop = chatWindow.scrollHeight;
   }
 

@@ -1,10 +1,13 @@
 const ChatController = ((model, view) => {
   async function handleSend() {
-    const userMessage = view.getInput().trim();
+    let userMessage = view.getInput().trim();
     if (!userMessage) return;
 
+    // Eliminar emojis del mensaje antes de buscar respuesta
+    const cleanMessage = userMessage.replace(/[\p{Emoji}\u200d]+/gu, '').trim();
+
     view.appendMessage(userMessage, "user");
-    const botReply = model.getResponse(userMessage);
+    const botReply = model.getResponse(cleanMessage);
     view.appendMessage(botReply, "bot");
     view.clearInput();
   }
