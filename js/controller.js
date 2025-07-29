@@ -8,7 +8,7 @@ const ChatController = ((model, view) => {
 
     view.appendMessage(userMessage, "user");
     const botReply = model.getResponse(cleanMessage);
-    view.appendMessage(botReply, "bot");
+    view.appendMessage(botReply, "IA bot");
     view.clearInput();
   }
 
